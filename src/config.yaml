@@ -1,0 +1,20 @@
+# KMS_lib configuration (edit without touching code)
+
+data:
+  faq_path: "data/faq_dataset.json"
+
+retrieval:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k: 3
+  show_scores: true
+
+llm:
+  hf_fallback_model: "t5-small"     # used by LLMRouter
+  enable_reformulation: true
+
+ui:
+  title: "KMS_lib — FAQ Assistant"
+  theme: "default"                  # default | glass | soft
+  enable_share: false               # gradio --share
+  server_name: "127.0.0.1"
+  server_port: 7860

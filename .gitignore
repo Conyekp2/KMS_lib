@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+.eggs/
+.ipynb_checkpoints/
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+
+# OS / Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Project artifacts
+.env

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FAQ001",
+    "question": "How can I reserve a book?",
+    "intent": "reservation",
+    "answer": "Use the catalog search, open the item page, and click Reserve. You will receive a confirmation if your account is eligible."
+  },
+  {
+    "id": "FAQ002",
+    "question": "Where can I find the formatting guide for the final report?",
+    "intent": "methodology",
+    "answer": "Check the Documentation section of this repository. A sample formatting guide is referenced in the README."
+  },
+  {
+    "id": "FAQ003",
+    "question": "Why do I see access denied for some items?",
+    "intent": "access_help",
+    "answer": "Some materials require sign-in or specific roles. Contact the repository admin with your account ID to request access."
+  },
+  {
+    "id": "FAQ004",
+    "question": "Can I view previous project reports?",
+    "intent": "document_access",
+    "answer": "Use the catalog filters (year, discipline, keywords). For restricted collections, request read access with your account email."
+  },
+  {
+    "id": "FAQ005",
+    "question": "Is there a template for the final project?",
+    "intent": "template_access",
+    "answer": "Yes. See the Templates section in the Documentation folder. Duplicate the file to your workspace before editing."
+  }
+]

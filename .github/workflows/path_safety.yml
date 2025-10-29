@@ -1,0 +1,28 @@
+name: Path safety check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  path-safety:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Scan for absolute local paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          found=$(find . \( -path './.venv' -o -path './.git' \) -prune -o \
+            -type f \( -name '*.py' -o -name '*.md' -o -name '*.txt' -o -name '*.json' -o -name '*.yaml' -o -name '*.yml' \) -print0 \
+          | xargs -0 grep -nE '/(Users|home|opt|var|etc|tmp)/' || true)
+
+          if [ -n "$found" ]; then
+            echo "❌ Absolute paths detected:"
+            echo "$found"
+            exit 1
+          else
+            echo "✅ No suspicious root-anchored paths."
+          fi

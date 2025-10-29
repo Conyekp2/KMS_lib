@@ -1,0 +1,21 @@
+name: kms_lib
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - scikit-learn=1.4.2
+  - spacy=3.7.4
+  - transformers=4.44.2
+  - sentencepiece=0.2.0
+  - sentence-transformers=2.7.0
+  - faiss-cpu=1.8.0
+  - gradio=4.44.0
+  - fastapi=0.112.2
+  - uvicorn=0.30.1
+  - pydantic=2.8.2
+  - pytest=8.3.2
+  - pip
+  - pip:
+      - accelerate==0.33.0

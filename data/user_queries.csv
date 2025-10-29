@@ -1,0 +1,9 @@
+query,structure,specificity,intent,notes
+"pdf",token,generic,unknown,"too vague"
+"leadership case study",noun phrase,semi-specific,document_access,"topic + resource type"
+"how to format final report",sentence,specific,methodology,"procedural query"
+"data ethics book",noun phrase,semi-specific,document_access,"topic + resource type"
+"template 2024 final project",noun phrase,specific,template_access,"institution-like vocabulary"
+"access denied for some items",sentence,semi-specific,access_help,"permissions / roles issue"
+"case study entrepreneurship east africa",noun phrase,semi-specific,document_access,"region + topic"
+"how do I reserve a book",sentence,specific,reservation,"catalog workflow"
