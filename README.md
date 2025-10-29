@@ -7,7 +7,7 @@
   <em>Bridging Human Language and Knowledge Retrieval</em><br>
   <a href="docs/methodology.md">📘 Full Documentation</a> ·
   <a href="#how-to-run">⚙️ Quick Start</a> ·
-  <a href="#demo">🧠 Demo</a>
+  <a href="#demo">📊 Demo</a>
 </p>
 
 ---
@@ -79,7 +79,7 @@ The system is designed for:
   <img src="docs/ui_answer.png" alt="Answer Interface" width="70%">
 </p>
 
-> *User query:* “Where can I find the final-year report format?”  
+> *User query:* “How can I reserve a book?”  
 > *System reformulates & retrieves:* most relevant results with confidence scores.
 
 ---
