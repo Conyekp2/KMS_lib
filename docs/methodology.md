@@ -2,11 +2,6 @@
   <img src="kms_image.png" alt="KMS_lib Logo" width="180">
 </p>
 
-<p align="center">
-  <img src="banner_kmslib.png" alt="KMS_lib Banner" width="100%">
-</p>
-
-
 <h1 align="center">KMS_lib — Smart Knowledge Management System</h1>
 <p align="center">
  <em>Bridging Human Language and Knowledge Retrieval</em><br>
@@ -154,7 +149,7 @@ The system follows three modular layers:
 </p>
 
 
-> *Sample query:* “Where can I find the final-year report template?” 
+> *Sample query:* “How can I resreve a book?” 
 > *System output:* Reformulated query + top results ranked by semantic similarity and confidence score.
 
 
